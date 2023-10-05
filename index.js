@@ -1,5 +1,5 @@
 const express = require('express');
-const product = require('./api/product-router');
+const product = require('./api/index');
 
 const app = express();
 
