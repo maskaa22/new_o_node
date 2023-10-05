@@ -1,7 +1,7 @@
-const exress = require('express');
+const express = require('express');
 const product = require('./routes/product-router');
 
-const app = exress();
+const app = express();
 
 const PORT = process.env.PORT || 5000;
 
